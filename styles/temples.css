@@ -26,6 +26,14 @@ header h1 {
     margin: 0;
 }
 
+h2 {
+    color: #2c003e;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
 .hamburger {
     background: none;
     border: none;

@@ -1,0 +1,40 @@
+/* Medium screens: 2 columns */
+@media (min-width: 600px) {
+    .hamburger {
+        display: none;
+    }
+
+    nav {
+        display: flex !important;
+        position: static;
+        background-color: transparent;
+        flex-direction: row;
+        width: auto;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        gap: 2rem;
+        width: 100%;
+    }
+
+    nav li {
+        padding: 0;
+        border: none;
+    }
+
+    /* 2 columns on medium screens */
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Large screens: 3 columns */
+@media (min-width: 1000px) {
+
+    /* 3 columns on large screens */
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
